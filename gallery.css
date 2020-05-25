@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+head{
+    height: 100px;
+    width: 100%;
+}
+h1{
+    color: orangered;
+    font-size: 40px;
+    margin-left: 150px;
+    width: 230px;
+    margin-top: 40px;
+    border-bottom: 2px solid rgba(255,100,10);
+    box-shadow: 4px 4px 5px rgba(255,100,10);
+    margin-bottom: 50px;
+    font-family: 'Bitter', serif;
+    text-transform: uppercase;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: auto;
+    height: 400px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+img:hover{
+    transform: scale(1.2);
+}
